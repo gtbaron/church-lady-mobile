@@ -1,8 +1,8 @@
 {
-    "name": "com.test.ngcordova",
-    "displayName": "ngCordova",
+    "name": "com.gtbaron.characterbingo",
+    "displayName": "Character Bingo",
     "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "description": "Play Character Bingo with your friends!",
     "main": "index.js",
     "license": "Apache-2.0",
     "scripts": {
@@ -13,7 +13,7 @@
         "lint": "ng lint",
         "e2e": "ng e2e"
     },
-    "author": "Apache Cordova Team",
+    "author": "GTBaron",
     "private": true,
     "dependencies": {
         "@angular/animations": "^4.2.4",
