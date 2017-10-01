@@ -1,0 +1,46 @@
+@import '../../../assets/colors';
+
+p {
+  width: 90px;
+  height: 90px;
+  margin: 0;
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.center {
+  color: $blue;
+  background-color: $white;
+  border: none;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 90px;
+  cursor: default;
+}
+
+@media screen and (max-width: 979px) {
+  p {
+    width: 75px;
+    height: 75px;
+  }
+
+  .center {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 75px;
+  }
+}
+
+@media screen and (max-width : 480px) {
+  p {
+    width: 70px;
+    height: 70px;
+  }
+
+  .center {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 70px;
+  }
+}

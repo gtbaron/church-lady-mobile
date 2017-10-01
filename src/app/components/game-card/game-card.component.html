@@ -1,0 +1,11 @@
+<div id="game-card">
+  <table>
+    <ng-template let-group ngFor [ngForOf]="squares">
+      <tr>
+        <td *ngFor="let square of group.names">
+          <app-square [name]="square.name"></app-square>
+        </td>
+      </tr>
+    </ng-template>
+  </table>
+</div>

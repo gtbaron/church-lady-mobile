@@ -1,0 +1,82 @@
+@import '../assets/colors';
+
+#page-title {
+  text-align: center;
+  color: $white;
+  background-color: $blue;
+  padding: 10px 0;
+  border-bottom: 2px solid $gray;
+
+  .star-logo {
+    border: solid 2px $gray;
+    border-radius: 50%;
+    background-color: $red;
+    width: 26px;
+    height: 26px;
+    padding-top: 3px;
+    padding-left: 5px;
+    display: inline-block;
+
+    i {
+      font-size: 22px;
+    }
+  }
+
+  h1 {
+    margin: 0 30px;
+    font-size: 34px;
+    width: 250px;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  #page-title {
+    .star-logo {
+      border: solid 2px $gray;
+      border-radius: 50%;
+      background-color: $red;
+      width: 22px;
+      height: 22px;
+      padding-top: 3px;
+      padding-left: 5px;
+      display: inline-block;
+
+      i {
+        font-size: 18px;
+      }
+    }
+
+    h1 {
+      margin: 0 25px;
+      font-size: 28px;
+      width: 210px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #page-title {
+    .star-logo {
+      border: solid 2px $gray;
+      border-radius: 50%;
+      background-color: $red;
+      width: 16px;
+      height: 16px;
+      padding-top: 0px;
+      padding-bottom: 1px;
+      padding-left: 2px;
+      display: inline-block;
+
+      i {
+        font-size: 14px;
+      }
+    }
+
+    h1 {
+      margin: 0 40px;
+      font-size: 22px;
+      width: 160px;
+    }
+  }
+}

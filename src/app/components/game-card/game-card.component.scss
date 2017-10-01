@@ -1,0 +1,59 @@
+@import '../../../assets/colors';
+
+#game-card {
+  padding: 25px;
+
+  table {
+    width: 450px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid $gray;
+    border-collapse: collapse;
+
+    td {
+      padding: 0;
+      width: 90px;
+      height: 90px;
+      background-color: $white;
+      border: 2px solid $gray;
+
+    }
+  }
+}
+
+@media screen and (max-width: 979px) {
+  #game-card {
+    padding: 15px;
+
+    table {
+      width: 375px;
+      height: 375px;
+
+      td {
+        width: 75px;
+        height: 75px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width : 480px) {
+  #game-card {
+    padding: 15px;
+
+    table {
+      width: 325px;
+      height: 325px;
+
+      td {
+        min-width: 65px;
+        max-width: 65px;
+        height: 65px;
+        font-size: 12px;
+      }
+    }
+  }
+}
